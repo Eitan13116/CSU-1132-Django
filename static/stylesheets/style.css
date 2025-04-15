@@ -1,10 +1,22 @@
-.info {
-	color: #FF5530;
-	font-size: 3em;
-	font-style: italic;
+body {
+    background: lightCyan;
+    color: darkgreen;
+    font-family: "DFKai-SB";
+}
+h1 {
+    background: linear-gradient(to right, blue , purple);;
+    color: white;
+    font-family: "DFKai-SB";
 }
 
-.timeshow {
-	color: #808080;
-	font-weight: bold;
+h2 {
+    background: linear-gradient(to left, green , Cyan);;
+    color: black;
+    font-family: "DFKai-SB";
+}
+
+h3 {
+    background: linear-gradient(to right, white , grey);;
+    color: black;
+    font-family: "DFKai-SB";
 }
