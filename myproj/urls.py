@@ -32,4 +32,14 @@ urlpatterns = [
     path('listone/', views.listone),
 	path('listall/', views.listall),
     path('index/', views.index),
+    path('post/', views.post), # POST 傳送表單
+
+path('post1/', views.post1), #資料新增，資料不驗證
+path('post2/', views.post2), #資料新增，資料作驗證
+path('postform/', views.postform), # 表單驗證
+path('edit/<int:id>/', views.edit), # 由 瀏覽器 開啟
+path('edit/<int:id>/<str:mode>', views.edit), # 由 edit.html 按 送出 鈕
+##自行加一個送出按鈕才能Test
+<input type="submit" value="送出資料" />
+path('delete/<int:id>/', views.delete),
 ]
